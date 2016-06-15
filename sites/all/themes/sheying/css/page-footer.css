@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS for the site. */
+
+
+@media all and (max-width: 767px) {
+/* 智能手机竖屏时的样式表 */
+}
+
+@media all and (min-width:768px) and (max-width: 959px) and (orientation: portrait) {
+/* iPad 竖屏时的样式表 */
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* iPad 横屏时的样式表 */
+}

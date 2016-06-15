@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS for the site. */
+/* 幻灯片部分的样式 */
+.flexslider {
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	}
+
+/* 主页内容部分的样式 */
+#content {
+	width: 1180px;
+	height: auto;
+	margin: 40px auto;
+	}
+
+.front .block-title {
+	font-size: 24px;
+	margin-bottom: 30px;
+	}
+
+/* 最新作品部分的样式 */
+#block-views-zuixinzuopin-block,
+#block-views-pingwei-block {
+	width: 100%;
+	float: left;
+	margin-bottom: 40px;
+	}
+
+.view-zuixinzuopin .views-row {
+	width: 10%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	}
+
+.view-zuixinzuopin .views-row .views-field-field-photo {
+	width: 100%;
+	height: 118px;
+	overflow: hidden;
+	}
+
+.view-zuixinzuopin .views-row .views-field-field-photo img {
+	height: 118px;
+	width: auto;
+	}
+
+.view-zuixinzuopin .views-row .views-field-title {
+	display: none;
+	}
+
+.view-zuixinzuopin .views-row-1,
+.view-zuixinzuopin .views-row-2,
+.view-zuixinzuopin .views-row-3,
+.view-zuixinzuopin .views-row-4 {
+	width: 23.5%;
+	height: auto;
+	display: inline-block;
+	margin-right: 2%;
+	margin-bottom: 25px;
+	}
+
+.view-zuixinzuopin .views-row-4 {
+	margin-right: 0;
+	}
+
+.view-zuixinzuopin .views-row-1 .views-field-field-photo,
+.view-zuixinzuopin .views-row-2 .views-field-field-photo,
+.view-zuixinzuopin .views-row-3 .views-field-field-photo,
+.view-zuixinzuopin .views-row-4 .views-field-field-photo {
+	width: 100%;
+	height: 278px;
+	overflow: hidden;
+	}
+
+.view-zuixinzuopin .views-row-1 .views-field-field-photo img,
+.view-zuixinzuopin .views-row-2 .views-field-field-photo img,
+.view-zuixinzuopin .views-row-3 .views-field-field-photo img,
+.view-zuixinzuopin .views-row-4 .views-field-field-photo img {
+	height: 278px;
+	width: auto;
+	}
+
+/* 评委部分的样式 */
+.view-pingwei .views-row {
+	width: 23.5%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	text-align: center;
+	}
+
+.view-pingwei .views-row-4 {
+	margin-right: 0;
+	}
+
+.view-pingwei .views-row .views-field-field-pingweitouxiang {
+	width: 180px;
+	height: 180px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	}
+
+.view-pingwei .views-row .views-field-field-pingweitouxiang img {
+	width: 100%;
+	height: auto;
+	}
+
+
+.view-pingwei .views-row .views-field-title a:link,
+.view-pingwei .views-row .views-field-title a:visited {
+	font-size: 18px;
+	color: #4e4e4e;
+	display: inline-block;
+	margin-bottom: 5px;
+	}
+
+.view-pingwei .views-row .views-field-title a:hover {
+	text-decoration: underline;
+	}
+
+/* 更多链接的样式 */
+.front .more-link {
+	float: right;
+	margin-top: 20px;
+	}
+
+.front .more-link a:link,
+.front .more-link a:visited {
+	color: #ed145b;
+	}
+
+.front .more-link a:hover {
+	text-decoration: underline;
+	}
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+/* 智能手机竖屏时的样式表 */
+}
+
+@media all and (min-width:768px) and (max-width: 959px) and (orientation: portrait) {
+/* iPad 竖屏时的样式表 */
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/*iPad 横屏时的样式表 */
+}

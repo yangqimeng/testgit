@@ -1,0 +1,26 @@
+# Chinese, Simplified translation of Embedded Media Field (7.x-1.0-alpha2)
+# Copyright (c) 2015 by the Chinese, Simplified translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Embedded Media Field (7.x-1.0-alpha2)\n"
+"POT-Creation-Date: 2015-11-03 14:34+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Chinese, Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Media"
+msgstr "媒体"
+msgid "Size of textfield"
+msgstr "文本框的大小"
+msgid "Embedded Media Field"
+msgstr "嵌入式媒体字段"
+msgid "Embedded media field"
+msgstr "嵌入式媒体字段"
+msgid "%name: Found no valid media with that url."
+msgstr "%name: 在该网址上未找到有效的媒体。"
+msgid "Provides an embedded media widget for file fields."
+msgstr "为文件字段提供一个嵌入式媒体微件。"

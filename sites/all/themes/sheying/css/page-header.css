@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS for the site. */
+.header {
+	width: 100%;
+	height: 90px;
+	background-color: #fff;
+	}
+
+.header-middle {
+	width: 1180px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	}
+
+#logo,
+#navigation {
+	display: inline-block;
+	float: left;
+	}
+
+#logo {
+	margin-right: 110px;
+	}
+
+#main-menu {
+	margin-top: 6px;
+	}
+
+#main-menu li a:link,
+#main-menu li a:visited {
+	font-size: 18px;
+	color: #4e4e4e;
+	padding: 4px 12px 8px;
+	margin-right: 20px;
+	}
+
+#main-menu li a.active {
+	border-bottom: 2px solid #ed145b;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+/* 智能手机竖屏时的样式表 */
+}
+
+@media all and (min-width:768px) and (max-width: 959px) and (orientation: portrait) {
+/* iPad 竖屏时的样式表 */
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/*iPad 横屏时的样式表 */
+}
+
+

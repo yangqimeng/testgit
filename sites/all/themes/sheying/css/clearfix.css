@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* centter the page and clear float. */
+#page,
+.region-bottom {
+	width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header,
+#content,
+#navigation,
+.region-sidebar-first,
+.region-sidebar-second,
+#footer {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/path/to/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+/* Containers for flow items. */
+#header,
+#main,
+#content,
+#footer {
+  *position: relative;
+  *zoom: 1;
+}
+
+#header:before,
+#header:after,
+#main:before,
+#main:after,
+#content:before,
+#content:after,
+#footer:before,
+#footer:after {
+  content: "";
+  display: table;
+}
+
+#header:after,
+#main:after,
+#content:after,
+#footer:after {
+  clear: both;
+}
+
+
+
+

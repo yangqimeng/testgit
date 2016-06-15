@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* OvalTelent 设计的 Normalize 文件 
+	参考了原生的 normalize.css文件；
+	www.w3cplus.com 网站的 normalize.css 文件；
+	以用于 Drupal 团队的网站开发。
+	
+	Author: OvalTelent
+	Date: 2016-01-02
+	Version: V0.1
+*/
+
+/* 设置 html、body 以及个元素的显示属性 */
+html {
+	font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	}
+	
+body {
+	margin: 0;	
+	font-size: 15px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f7f7f7;
+	height: 100%;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup, 
+main,
+nav,
+section,
+summary {
+	display: block;
+	}
+	
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+	}
+	
+audio:not([controls]) {
+	display: none;
+	height: 0;
+	}
+	
+[hidden], template {
+	display: none;
+	}
+	
+svg:not(:root) {
+	overflow: hidden;
+	}
+
+/* 设置链接的相关属性 */
+a {
+	background: transparent;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	color: #0e77c0;		/* 暂时设置链接的颜色为 #08c 的蓝色 */
+	}
+
+a:active {
+	outline: 0;
+	}
+	
+a:active {
+	color: #006699;
+	}
+	
+/* 清除浏览器中元素处于 focus 状态的边框*/
+:focus {
+	outline: none;
+	}
+
+/* 设置其他标签的相关属性 */
+abbr[title] {
+	border-bottom: 1px dotted;
+	}
+	
+b,
+strong {
+	font-weight: 700;
+	}
+	
+dfn {
+	font-style: italic;
+	}
+	
+mark {
+	background: #ff0;
+	color: #000;
+	}
+	
+small {
+	font-size: 80%;
+	}
+
+sub, 
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	}
+	
+sup {
+	top: -0.5em;
+	}
+	
+sub {
+	bottom: -0.25em;
+	}
+	
+img {
+	border: 0;
+	vertical-align: middle;
+	}
+	
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+	}
+	
+pre {
+	overflow: auto;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	}
+	
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+	}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+	-webkit-appearance: none;
+	}
+	
+button {
+	overflow: visible;
+	}
+	
+button,
+select {
+	text-transform: none;
+	}
+	
+/* 复写select的样式 */
+select {
+  border: solid 1px #666;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url("../images/arrow.png") no-repeat scroll 98% center transparent;
+}
+
+select::-ms-expand { display: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+	}
+	
+button[disabled],
+html input[disabled] {
+	cursor: default;
+	}
+	
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+	}
+	
+input {
+	line-height: normal;
+	}
+	
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+	}
+	
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+	}
+	
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+	}
+	
+fieldset {
+	border: 1px solid #999;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+	}
+	
+legend {
+	border: 0;
+	padding: 0;
+	}
+	
+textarea {
+	overflow: auto;
+	resize: vertical;
+	}
+	
+optgroup {
+	font-weight: bold;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+td, th {
+	padding: 0;
+	}
+	
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+form,
+blockquote {
+	margin: 0;
+	}
+	
+ul,
+ol,
+li,
+dl,
+dd {
+	margin: 0;
+	padding: 0;
+	}
+	
+ul,
+ol {
+	list-style: none outside none;
+	}
+	
+h1, 
+h2, 
+h3 {
+	line-height: 1;
+	font-weight: normal;
+	}
+	
+h1 {
+	font-size: 20px; 
+	}
+	
+h2 {
+	font-size: 18px;
+	}
+	
+h3 {
+	font-size: 16px;
+	}
+	
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: #999;
+	}
+	
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #999;
+	}
+	
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #999;
+	}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	}
